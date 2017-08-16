@@ -1,0 +1,33 @@
+#HeaderImage{
+    position: absolute;
+    width:100%;
+    min-height: 1120px;
+    background-image: url(images/header.jpg);  
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:50% 0%;
+}
+
+
+
+#CallOut{
+    width:100%;
+    max-height: 500px;
+    background-image: url(images/callout.jpg);  
+    background-position: calc(50%) calc(0%);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#ContentIntro{
+    padding-top: 30px;
+}
+
+#ContentIntroHeading{
+    font-size: 55px;
+    padding-top: 30px;
+}
+
+#ContentIntro p{
+    font-size: 16px;
+}

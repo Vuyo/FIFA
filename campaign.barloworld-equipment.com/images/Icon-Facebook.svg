@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="svg2" shape-rendering="geometricPrecision"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+	 style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;fill:#CCCCCC;}
+	.st1{fill:#FFCC00;}
+</style>
+<circle cx="50" cy="51" r="50"/>
+<rect x="-49" y="51" class="st0" width="40" height="40"/>
+<path id="f" class="st1" d="M53,78V53h8l1-10h-9v-6c0-3,1-5,5-5h5v-9c-1,0-4,0-8,0c-7,0-13,5-13,13v7h-8v10h8v25H53z"/>
+</svg>

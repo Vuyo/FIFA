@@ -1,0 +1,18 @@
+#HeaderImage{
+    position: absolute;
+    width:100%;
+    min-height: 1120px;
+    background-image: url(images/header.jpg);  
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:50% 0%;
+}
+
+
+
+#CallOut{
+    width:100%;
+    min-height: 500px;
+    background-image: url(images/callout.jpg);  
+    background-repeat: no-repeat;
+}

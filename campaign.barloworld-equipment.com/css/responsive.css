@@ -1,0 +1,71 @@
+/* Larger than mobile */
+
+@media (min-width: 300px) {
+    #Title {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    #ContentIntroHeading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+
+@media (min-width: 550px) {}
+
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {
+    #Title {
+        font-size: 40px;
+        margin-right: 10px;
+    }
+    #ContentIntroHeading {
+        font-size: 71px;
+        line-height: 73px;
+    }
+}
+
+
+
+
+/* Larger than desktop */
+
+@media (min-width: 1024px) {
+    #Title {
+        font-size: 44px;
+        margin-right: 10px;
+    }
+    #ContentIntroHeading {
+        font-size: 71px;
+        line-height: 73px;
+    }
+}
+
+
+/* Larger than Desktop HD */
+
+@media (min-width: 1200px) {
+    #Title {
+        font-size: 44px;
+        margin-right: 10px;
+    }
+    #ContentIntroHeading {
+        font-size: 71px;
+        line-height: 73px;
+    }
+}
+
+@media (min-width: 1600px) {
+    #Title {
+        font-size: 58px;
+        margin-right: 10px;
+    }
+    #ContentIntroHeading {
+        font-size: 71px;
+        line-height: 73px;
+    }
+}
