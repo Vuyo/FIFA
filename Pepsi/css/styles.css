@@ -42,40 +42,69 @@ responsive image
 ========================================================================== */
 .img-responsive{
  
-    max-width: 100%;
-    height: auto;
+    max-width: 20%;
+    height: 10;
 }
 
 /* ==========================================================================
 Nav transparent
 ========================================================================== */
 .navbar {
-    background:transparent;
+    background:rgba(0, 0, 0, 0.3);
     border:0;
     margin-bottom:70%;
+    margin-top:-3%;
+    width: 100%;
+}
 
+.navbar li {
+    margin-top: 4%;
+}
+
+#logo { 
+  float: left;
+  display: inline-block;
 }
 
 .nav.navbar-nav.navbar-right li a {
+    display: inline
     color:white;
 }
 
+/*
+Images on the right hand side of the NavBar
+*/
 .nav.navbar-nav.navbar-right li a:hover {
     color:red;
 }
 
 .navbar.navbar-inverse li a {
+    display: inline
     font-size-adjust: auto;
     color:white;
 }
 
+/*
+Text on the left hand side of the NavBar
+*/
 .navbar.navbar-inverse li a:hover {
     font-size-adjust: auto;
-    color:red;
+     color:red;
 }
-.navbar-brand{
-    background:url('../images/Pepsi-Logo.jpg') no-repeat center center;
+
+.navbar.navbar-inverse img{
+     display: inline;
+    max-width: 25%;
+    height: 70px;
 }
+
+#myNavbar
+{
+    overflow-y: scroll !important;
+    max-height: 260px !important;
+    overflow-y: scroll !important;
+}
+
 /* ==========================================================================
 Base
 ========================================================================== */
@@ -495,10 +524,14 @@ a:hover, a:focus {
 }
 .texture-overlay {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 400px;
     width: 100%;
     height: 100%;
+}
+
+div.texture-overlay img {
+    width: 100%;
+    height: auto;
 }
 
 /* ==========================================================================
@@ -618,7 +651,7 @@ Hero
     position: relative; 
     padding: 60px 0 60px 0;
     min-height: 800px;
-    background: url('../images/Pepsi-HomeBanner.jpg') no-repeat center center;
+    background: url('../Pepsi_Images/Top-Image.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
 }

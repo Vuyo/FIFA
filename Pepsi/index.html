@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <html lang="en" class="no-js">
 	<head>
@@ -14,14 +12,23 @@
 		<meta name="author" content="" />
 		<!-- Bootstrap -->
 		<script src="js/modernizr.custom.js"></script>
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+        
+		<link href="css/bootstrap.css" rel="stylesheet">
+        
 		<link href="css/jquery.fancybox.css" rel="stylesheet">
+        
 		<link href="css/flickity.css" rel="stylesheet" >
-		<link href="css/animate.css" rel="stylesheet">
+		
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        
 		<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+        
 		<link href="css/styles.css" rel="stylesheet">
+        
 		<link href="css/queries.css" rel="stylesheet">
+        
+        <link href="css/animate.css" rel="stylesheet">
+        
 		<!-- Facebook and Twitter integration -->
 		<meta property="og:title" content=""/>
 		<meta property="og:image" content=""/>
@@ -32,38 +39,39 @@
 		<meta name="twitter:image" content="" />
 		<meta name="twitter:url" content="" />
 		<meta name="twitter:card" content="" />
-
 	</head>
 	<body>
 
 		<header>
 			<section class="hero">
-				<div class="texture-overlay"></div>
+				<div class="texture-overlay">
+                  <img class="text animated slideInUp" src="images/Headline_1.png">
+                </div>
 				<div class="container">
 						<!--Navbar -->
-	<nav id = "navvy" class="navbar navbar-inverse">
+	<nav id = "Nav" class="navbar navbar-inverse">
 		<div class="container-fluid">
+            <img src="images/Pepsi-logo-circle.png" id="logo" />
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span> 
 				</button>
-				<a class="navbar-brand" href="#">LOGO</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav">
-
+                
+                <ul class="nav navbar-nav">
 					<li><a href="#">ABOUT</a></li>
 					<li><a href="#">PRODUCTS</a></li> 
 					<li><a href="#">PROMOTIONS</a></li> 
 					<li><a href="#">CONTACT</a></li> 
 				 </ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+					<li class="text animated bounce"><a href="#"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a></li>
+					<li class="text animated bounce"><a href="#"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></li>
+					<li class="text animated bounce"><a href="#"><i class="fa fa-youtube fa-3x" aria-hidden="true"></i></a></li>
+					<li class="text animated bounce"><a href="#"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
 				</ul>
 			</div>
 		</div>
@@ -71,7 +79,6 @@
 <!--done Navbar -->
 
 					<div class="row hero-content">
-			
 					</div>
 				</div>
 			</section>
@@ -84,48 +91,59 @@
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 				<li data-target="#myCarousel" data-slide-to="1"></li>
 				<li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
 			  </ol>
 		  
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner">
 				<div class="item active">
-				  <img src="images/Pepsi-Brands-Max.jpg" alt="Max">
+				  <img src="Pepsi_Images/Can_1.jpg" alt="Max">
 				</div>
 		  
 				<div class="item">
-				  <img src="images/Pepsi-Brands-Light.jpg" alt="Light" >
+				  <img src="Pepsi_Images/Can_2.jpg" alt="Light" >
 				</div>
 			  
 				<div class="item">
-				  <img src="images/Pepsi-Brands-Regular.jpg" alt="Regular">
+				  <img src="Pepsi_Images/Can_3.jpg" alt="Regular">
 				</div>
+                  
+                  <div class="item">
+				  <img src="Pepsi_Images/Can_4.jpg" alt="Regular">
+				</div>
+                  
 			  </div>
 		  
 			</div>
 		  </div>
+        
 		<section class="screenshots" id="screenshots">
+			<div class="container-fluid">
+                <div class="row">
+                <figure>
+                    <img src="Pepsi_Images/Angle_1.png" alt="">
+                    <img src="Pepsi_Images/Angle_2.png" alt="">
+                    <img src="Pepsi_Images/Angle_3.png" alt="">
+                    <img src="Pepsi_Images/Angle_4.png" alt="">
+                    </figure>
+                </div>
+            </div>
+		</section>
+        		<section class="screenshots" id="screenshots">
 			<div class="container-fluid">
 				<div class="row">
 							<figure>
-								<img src="images/Pepsi-Promotions.jpg" alt="">
+								<img src="Pepsi_Images/Bottom-Image.jpg" alt="">
 							</figure>
 				</div>
 			</div>
 		</section>
+        
 		<section class="screenshots" id="screenshots">
 			<div class="container-fluid">
 				<div class="row">
 							<figure>
-								<img src="images/Pepsi-LastImage.jpg" alt="">
-							</figure>
-				</div>
-			</div>
-		</section>
-		<section class="screenshots" id="screenshots">
-			<div class="container-fluid">
-				<div class="row">
-							<figure>
-								<img src="images/Pepsi-Footer.jpg" alt="">
+								<img src="Pepsi_Images/Bottom-Nav_With-Text.jpg" alt="">
 							</figure>
 				</div>
 			</div>
