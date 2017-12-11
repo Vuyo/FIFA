@@ -52,7 +52,7 @@ class Home extends React.Component {
 
     return (
       <div className='container'>
-        <h3 className='text-center'>Click on the portrait. Select your favorite.</h3>
+        <h3 className='text-center'>Click the images to view a profile</h3>
         <div className='row'>
           {characterNodes}
         </div>
