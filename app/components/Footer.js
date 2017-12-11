@@ -39,9 +39,8 @@ class Footer extends React.Component {
         <div className='container'>
           <div className='row'>
             <div className='col-sm-5'>
-              <h3 className='lead'><strong>Information</strong></h3>
-              <p>Powered by <strong>Node.js</strong>, <strong>MongoDB</strong> and <strong>React</strong> with Flux architecture and server-side rendering.</p>
-              <p>© 2017 FIFA STATS </p>
+              <h3 className='League'><strong>Information</strong></h3>
+              <p>© 2017/2018 FIFA STATS </p>
             </div>
             <div className='col-sm-7 hidden-xs'>
               <h3 className='lead'><strong>Leaderboard</strong> Top 5 Characters</h3>
